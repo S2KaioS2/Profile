@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+:root {
+    --bg: rgb(20, 20, 20);
+    --white: #f0f8ff;
+    --icon: #616c74;
+    --txt: rgb(116, 106, 97);
+    --tit: rgb(114, 26, 30);
+
+}
+
+
+body{
+    background-color: var(--bg);
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    transition: 0.4s ease;
+}
+
+.cabecalho{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 2rem 0rem 0rem 0rem;
+    justify-content: space-between;
+}
+
+h1{
+    width: 7%;
+    color: var(--icon);
+    font-size: 2.25rem;
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.nome{
+    width: 30%;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.themebtn{
+    background-image: url(../img/sun.svg);
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: repeat;
+    margin-right: 15px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    
+}
+
+.themebtn:hover{
+animation-name: girar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+.themebtn.light-{
+    background: url(../img/moon.svg);
+    height: 3.3rem;
+    width: 3.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.bi-instagram{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.bi-github{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+a{
+    color: var(--icon);
+    text-decoration: none;
+}
+
+.foto{
+    display: flex;
+    height: 20rem;
+    width: 25%;
+    margin-left: auto;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sukuna{
+    width: 70%;
+    border-radius: 90%;
+    border: 5px solid var(--icon);
+    box-shadow: 0 0 15px var(--icon);
+    
+}
+
+.container{
+    display: block;
+    justify-content: space-between;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.habilidade{
+    height: 15rem;
+    width: 25%;
+    
+}
+
+.sobremim{
+    height: 15rem;
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.titulo{
+    height: 4.5rem;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+h2{
+    color: var(--tit);
+    height: 3rem;
+}
+
+
+.Conhecimentos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 9rem;
+    align-items: center;
+}
+
+.HTML{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 3.5rem;
+    margin-left: auto;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    
+
+}
+
+.CSS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 3.5rem;
+    margin-bottom: 5rem;
+  
+    border-radius: 2rem;
+
+}
+
+.JS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 3.5rem;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    border-radius: 2rem; 
+}
+
+.htmlimg{
+    width: 50%;
+    height: 100%;
+}
+
+.cssimg{
+    width: 50%;
+    height: 100%;
+}
+
+.jsimg{
+    width: 50%;
+    height: 100%;
+}
+
+.infos{
+    font-size: 1.5rem;
+    color: var(--txt);
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 2rem;
+}
+
+.frase{
+    width: 50%;
+    height: 20rem;
+    margin-top: 9rem;
+}
+
+.motivacao1{
+    color: var(--txt);
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+}
+
+.motivacao2{
+    color: var(--txt);
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+}
+
+.light-mode{
+    --bg: #f8f7f4;
+    --icon: #d6b8f1;
+    --txt: rgb(224, 159, 159);
+    --tit: #ee8eae;
+}
+
+.dark-mode{
+    --bg: rgb(20, 20, 20);
+}
+
+@keyframes girar {   0% {     transform: rotate(0deg);   }   100% {     transform: rotate(360deg);   } }
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
