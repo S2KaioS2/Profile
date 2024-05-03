@@ -3,7 +3,8 @@
 
 *{
     box-sizing: border-box;
-
+    padding: 0;
+    margin: 0;
 }
 
 :root {
@@ -12,7 +13,7 @@
     --icon: #616c74;
     --txt: rgb(116, 106, 97);
     --tit: rgb(114, 26, 30);
-
+    --name: #616c74;
 }
 
 
@@ -118,11 +119,13 @@ a{
 .container{
     display: block;
     justify-content: space-between;
+    height: 450px;
 }
 
 .container2{
     display: flex;
     justify-content: space-between;
+    height: 350px;
 }
 
 .habilidade{
@@ -152,29 +155,26 @@ h2{
 .Conhecimentos{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
     height: 9rem;
     align-items: center;
+    margin-left: 2rem;
 }
 
 .HTML{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
     height: 3.5rem;
-    margin-left: auto;
     margin-bottom: 5rem;
     border-radius: 2rem;
     
-
 }
 
 .CSS{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
     height: 3.5rem;
     margin-bottom: 5rem;
   
@@ -186,7 +186,6 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
     height: 3.5rem;
     margin-right: auto;
     margin-bottom: 5rem;
@@ -194,18 +193,21 @@ h2{
 }
 
 .htmlimg{
-    width: 50%;
-    height: 100%;
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
 }
 
 .cssimg{
-    width: 50%;
-    height: 100%;
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
 }
 
 .jsimg{
-    width: 50%;
-    height: 100%;
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
 }
 
 .infos{
@@ -237,9 +239,10 @@ h2{
 
 .light-mode{
     --bg: #f8f7f4;
-    --icon: #d6b8f1;
+    --icon: #4A66E6;
     --txt: rgb(224, 159, 159);
     --tit: #ee8eae;
+    
 }
 
 .dark-mode{
